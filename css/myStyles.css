@@ -78,7 +78,7 @@ html {
 
 /* Big picture across the top of the page */
 .hero {
-    background-image: url('../assets/img/heroPic.JPG'); /* <-- or any image you want! */
+    background-image: url('../assets/img/heroPic.JPG');
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -91,7 +91,7 @@ html {
 .hero-text {
     text-align: center;
     color: white;
-    background: rgba(0, 0, 0, 0.5); /* Slight dark overlay for readability */
+    background: rgba(0, 0, 0, 0.5); /* Slight dark overlay*/
     padding: 20px 40px;
     border-radius: 10px;
 }
