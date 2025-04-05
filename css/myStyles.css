@@ -1,0 +1,108 @@
+body {
+    background-color: #f5c000; /* Yellow background */
+    font-family: 'Georgia', serif; /* Slightly fancier font like Maggie's */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Header */
+.top-header {
+    background-color: #f5c000; /* Yellow, same as body for a smooth look */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.initials {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.section1, .section2, .section3, .section4 {
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.section1 {
+    background-color: #031416;
+    color: white;
+}
+
+.section2 {
+    background-color: #ffe0b2;
+}
+
+.section3 {
+    background-color: #FED053;
+}
+
+.section4 {
+    background-color: #1e2328;
+    color: white;
+}
+
+h1#top {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5rem;
+}
+
+img {
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Big picture across the top of the page */
+.hero {
+    background-image: url('../assets/img/heroPic.JPG'); /* <-- or any image you want! */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Slight dark overlay for readability */
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
